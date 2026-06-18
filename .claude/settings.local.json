@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(cd D:/task-manager-api && npx jest 2>&1)",
+      "Bash(cd D:/task-manager-api && node --experimental-vm-modules node_modules/jest/bin/jest.js 2>&1)",
+      "Bash(cd D:/task-manager-api && npm test 2>&1)",
+      "Bash(node:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
